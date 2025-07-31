@@ -1,0 +1,72 @@
+{
+  'red': 0,
+  'green': 1,
+  'blue': 2,
+  'purple': 3,
+  'yellow': 4,
+  'grey': 5,
+  'white': 6
+}
+
+| Posición | Campo        | Descripción                                                 |
+| -------- | ------------ | ----------------------------------------------------------- |
+| `[0]`    | `OBJECT_IDX` | Tipo de objeto (pared, puerta, agente, llave, meta, etc.)   |
+| `[1]`    | `COLOR_IDX`  | Color del objeto                                            |
+| `[2]`    | `STATE`      | Estado (relevante para puertas: 0=open, 1=closed, 2=locked) |
+
+
+0
+	
+
+left
+	
+
+Turn left
+
+1
+	
+
+right
+	
+
+Turn right
+
+2
+	
+
+forward
+	
+
+Move forward
+
+3
+	
+
+pickup
+	
+
+Unused
+
+4
+	
+
+drop
+	
+
+Unused
+
+5
+	
+
+toggle
+	
+
+Unused
+
+6
+	
+
+done
+	
+
+Unused
