@@ -20,3 +20,7 @@ manual_control = ManualControlWithObs(env, seed=42)
 manual_control.start()
 
 env.close()
+
+#1 es piso
+#2 es muro
+#8 es meta
